@@ -1,0 +1,185 @@
+body {
+    background-color: moccasin;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+h1, h2 {
+    color: white;
+    text-shadow: 2px 2px 8px black;
+}
+
+
+.jumbotron {
+    background-image: url("/static/img/header2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.glyphicon {
+    margin-right:5px;
+}
+.thumbnail
+{
+    margin-bottom: 20px;
+    padding: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+.thumbnail img
+{
+    margin-top: 10px;
+}
+.item.list-group-item
+{
+    float: none;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.item.list-group-item:nth-of-type(odd):hover,.item.list-group-item:hover
+{
+    background: #428bca;
+}
+
+.item.list-group-item .list-group-image
+{
+    margin-right: 10px;
+}
+.item.list-group-item .thumbnail
+{
+    margin-bottom: 0px;
+}
+.item.list-group-item .caption
+{
+    padding: 9px 9px 0px 9px;
+}
+.item.list-group-item:nth-of-type(odd)
+{
+    background: #eeeeee;
+}
+
+.item.list-group-item:before, .item.list-group-item:after
+{
+    display: table;
+    content: " ";
+}
+
+.item.list-group-item img
+{
+    float: left;
+}
+.item.list-group-item:after
+{
+    clear: both;
+}
+.list-group-item-text
+{
+    margin: 0 0 11px;
+}
+
+.personal-datas,label{
+    display: block;
+    padding: 10px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.paymentMethod{
+    max-width: 300px;
+    max-height: 250px;
+    margin: 35px;
+}
+
+
+footer{
+    bottom: 100%;
+    position: absolute;
+    width: 100%;
+    margin-top: 20px;
+}
+.backToCart{
+    margin-top: 30px;
+}
+
+#basket {
+    color: #642D45;
+    font-size: 30px;
+}
+
+#basket:hover {
+    color: #8B4E69;
+    transform: scale(1.2);
+
+}
+
+.btn-info{
+    background-color: #642D45;
+    border:#3C050A ;
+}
+.btn-info:hover{
+    background-color: #8B4E69;
+    border:#642D45 ;
+}
+
+.carousel-item{
+    max-height: 200px;
+}
+
+.bd-example{
+    margin-top:0;
+    position: sticky;
+}
+
+.header-title{
+    margin:0 auto;
+    background-color: rgba(139, 78, 105,0.6);
+    max-width: 63vw;
+    border-radius: 30px ;
+    border: 1px solid white;
+    padding: 1vh;
+    margin-bottom: 5vh;
+
+}
+
+.header-title, h2{
+    color: wheat;
+}
+
+.d-block {
+    width:100vw;
+    max-width: 100vw;
+}
+
+
+
+#registerButton{
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    color: white;
+    background-color:rgba(139, 78, 105,0.6);
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    margin-left: 80vw;
+    border-radius: 30px;
+    border: 1px solid white;
+    outline: 0;
+    transition-duration: 0.7s;
+}
+
+#registerButton:hover{
+    background-color:rgba(139, 78, 105,0.8);
+    transform: scale(1.1);
+    border: 1.2px solid white;
+    transition-duration: 0.7s;
+}

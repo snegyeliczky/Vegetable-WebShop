@@ -1,0 +1,13 @@
+INSERT INTO product (name, description, default_price, supplier_id, product_category_id) VALUES ('Potato', 'From Hungary', 1.0, 1, 1);
+INSERT INTO product (name, description, default_price, supplier_id, product_category_id) VALUES ('Carrot', 'From Hungary', 0.2, 1, 1);
+INSERT INTO product (name, description, default_price, supplier_id, product_category_id) VALUES ('Onion', 'From Hungary', 0.3, 1, 1);
+INSERT INTO product (name, description, default_price, supplier_id, product_category_id) VALUES ('Red Lady Apple', 'From Hungary', 0.5, 2, 2);
+INSERT INTO product (name, description, default_price, supplier_id, product_category_id) VALUES ('Orang', 'From Brasilia', 0.7, 2, 2);
+INSERT INTO product (name, description, default_price, supplier_id, product_category_id) VALUES ('Banan', 'From Brasilia', 0.6, 2,2);
+INSERT INTO product (name, description, default_price, supplier_id, product_category_id) VALUES ('Grape', 'From Hungary', 0.5, 2 ,2);
+INSERT INTO product (name, description, default_price, supplier_id, product_category_id) VALUES ('Cinnamon', 'From Madagascar', 0.1, 3, 3);
+INSERT INTO product (name, description, default_price, supplier_id, product_category_id) VALUES ('Black Pepper', 'From India', 0.1, 3, 3);
+INSERT INTO product (name, description, default_price, supplier_id, product_category_id) VALUES ('Rosemary', 'From Italy', 0.1, 3, 3);
+INSERT INTO product (name, description, default_price, supplier_id, product_category_id) VALUES ('Curry', 'From India', 0.1, 3, 3);
+INSERT INTO product (name, description, default_price, supplier_id, product_category_id) VALUES ('Chili', 'From Mexico', 0.1, 3, 3);
+INSERT INTO product (name, description, default_price, supplier_id, product_category_id) VALUES ('Sea Salt', 'From China', 0.1, 3, 3);
